@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Poitou Admin Pro</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <script>
+    function showAlert() {
+      alert("Votre message a bien été envoyé. Nous vous répondrons rapidement !");
+    }
+  </script>
+</head>
+<body>
+
+  <header class="header sticky">
+    <div class="container header-flex">
+      <div class="logo-title">
+        <img src="logo.png" alt="Logo Poitou Admin Pro" class="logo" />
+        <span class="company-name">Poitou Admin Pro</span>
+      </div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#why">Pourquoi nous ?</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  
+    
+    <section class="hero">
+      <div class="hero-text">
+        <h1 class="white-text">Facilitez vos démarches</h1>
+        <p>Un accompagnement humain et personnalisé pour simplifier toutes vos formalités administratives ou créer votre entreprise.</p>
+      </div>
+    </section>
+    
+    
+
+  <section class="section" id="services">
+    <div class="container">
+      <h2>Nos <span class="highlight">services</span></h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Assistance administrative</h3>
+          <p>Démarches CAF, impôts, URSSAF, préfecture, courriers, archivage.</p>
+        </div>
+        <div class="card">
+          <h3>Création d’entreprise</h3>
+          <p>Choix du statut, rédaction des statuts, dépôt et immatriculation.</p>
+        </div>
+        <div class="card">
+          <h3>Optimisation de gestion</h3>
+          <p>Conseils personnalisés, outils simples et productifs.</p>
+        </div>
+      </div>
+      
+      <p class="description">
+        Chez <strong>Poitou Admin Pro</strong>, nous proposons un accompagnement sur-mesure pour :
+        <ul>
+          <li>📌 La gestion administrative du quotidien : tri, classement, archivage, relances, rédaction de courriers, organisation des documents.</li>
+          <li>🚀 La création d’entreprise : choix de la forme juridique, immatriculation, rédaction des statuts, dépôt des formalités, ouverture de compte pro.</li>
+          <li>📞 Le suivi client : gestion de la relation client, courriels, tableaux de suivi, organisation des échéances.</li>
+          <li>🔍 L’optimisation de la gestion : conseils personnalisés, méthodes simples, digitalisation des documents.</li>
+        </ul>
+        Notre objectif : vous faire gagner du temps, simplifier votre quotidien et vous permettre de rester concentré sur votre activité principale.
+      </p>
+
+<img src="image2.jpg" alt="Documents entreprise" class="section-image">
+    </div>
+  </section>
+
+  <section class="section bg-light" id="why">
+    <div class="container">
+      <h2><span class="highlight">Pourquoi choisir</span> notre entreprise ?</h2>
+      <div class="benefits">
+        <div>
+          <h4>⏱️ Gain de temps</h4>
+          <p>On s’occupe de vos démarches pour vous.</p>
+        </div>
+        <div>
+          <h4>⚙️ Simplicité & productivité</h4>
+          <p>Des outils clairs, des échanges efficaces.</p>
+        </div>
+        <div>
+          <h4>💰 Maîtrise des coûts</h4>
+          <p>Des prestations au prix juste, sans engagement inutile.</p>
+        </div>
+      </div>
+      <img src="image3.jpg" alt="Productivité" class="section-image">
+    </div>
+  </section>
+
+  <section class="section bg-map">
+    <div class="container">
+      <h2>Notre <span class="highlight">zone d’intervention</span></h2>
+      <p>Basé à Poitiers, nous intervenons dans toute la région Nouvelle-Aquitaine.</p>
+      <img src="nouvelle_aquitaine.jpg" alt="Carte Nouvelle-Aquitaine" class="map-image">
+    </div>
+  </section>
+
+  <section class="section links-section">
+    <div class="container">
+      <h2>Liens <span class="highlight">utiles</span></h2>
+      <ul>
+        <li><a href="https://www.impots.gouv.fr/portail/professionnel" target="_blank">Site officiel des impôts</a></li>
+        <li><a href="https://www.inpi.fr/" target="_blank">INPI – Propriété intellectuelle</a></li>
+        <li><a href="https://www.pappers.fr/" target="_blank">Pappers – Recherche entreprise</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container contact-flex">
+      
+      <div class="contact-info">
+<div class="contact-image"><img src="image4.jpg" alt="Contact illustration"></div>
+        <h2>Nous <span class="highlight">contacter</span></h2>
+        <p>📧 Email : <a href="mailto:poitoupro86@gmail.com">poitoupro86@gmail.com</a></p>
+        <p>📞 Téléphone : <a href="tel:+33758704265">07 58 70 42 65</a></p>
+        <a href="https://wa.me/33758704265" class="btn">📱 Me joindre sur WhatsApp</a>
+
+        <form action="https://formspree.io/f/mldnnydl" method="POST" class="contact-form" onsubmit="showAlert()">
+          <input type="text" name="name" placeholder="Votre nom" required />
+          <input type="email" name="email" placeholder="Votre email" required />
+          <textarea name="message" placeholder="Votre message..." required></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 - Poitou Admin Pro. Tous droits réservés.</p>
+    </div>
+    <p class="legal">Mentions légales : Erika LE LEIZOUR – Entreprise non immatriculée au RCS</p>
+  </footer>
+
+</body>
+</html>
